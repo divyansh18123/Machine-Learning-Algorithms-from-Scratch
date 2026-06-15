@@ -9,16 +9,16 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-with open('archive 2/train-images.idx3-ubyte', 'rb') as f:
+with open('train-images.idx3-ubyte', 'rb') as f:
     whole_train_images_arr = idx2numpy.convert_from_file(f)
 
-with open('archive 2/train-labels.idx1-ubyte', 'rb') as f:
+with open('train-labels.idx1-ubyte', 'rb') as f:
     whole_train_labels_arr = idx2numpy.convert_from_file(f)
 
-with open('archive 2/t10k-images.idx3-ubyte', 'rb') as f:
+with open('t10k-images.idx3-ubyte', 'rb') as f:
     whole_test_images_arr = idx2numpy.convert_from_file(f)
 
-with open('archive 2/t10k-labels.idx1-ubyte', 'rb') as f:
+with open('t10k-labels.idx1-ubyte', 'rb') as f:
     whole_test_labels_arr = idx2numpy.convert_from_file(f)
 
 
